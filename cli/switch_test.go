@@ -44,7 +44,7 @@ func TestSwitchCommand(t *testing.T) {
 				configContent: `
 	# Warning = 'THIS FILE IS GENERATED. DO NOT EDIT!'
 	active = 'x-s-org'
-	
+
 	[Organizations]
 	[Organizations.x-s-org]
 	api_key = 'x'
@@ -62,7 +62,7 @@ func TestSwitchCommand(t *testing.T) {
 				configContent: `
 	# Warning = 'THIS FILE IS GENERATED. DO NOT EDIT!'
 	active = 'x-s-org'
-	
+
 	[Organizations]
 	[Organizations.x-s-org]
 	api_key = 'x'
@@ -80,7 +80,7 @@ func TestSwitchCommand(t *testing.T) {
 				configContent: `
 	# Warning = 'THIS FILE IS GENERATED. DO NOT EDIT!'
 	active = 'x-s-org'
-	
+
 	[Organizations]
 	[Organizations.x-s-org]
 	api_key = 'x'
