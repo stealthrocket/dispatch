@@ -336,6 +336,7 @@ func dumpLogs(logWriter io.Writer) {
 		_, _ = io.Copy(os.Stderr, r)
 		_, _ = os.Stderr.Write([]byte{'\n'})
 	}
+	os.Stderr.Sync()
 }
 
 func poll(ctx context.Context, client *http.Client, url string) (string, *http.Response, error) {
